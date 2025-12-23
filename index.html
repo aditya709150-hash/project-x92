@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script>
+(function () {
+  const correctPassword = "onlyAastha";
+  let userPassword = prompt("🔒 Private Birthday Surprise 💖\nEnter Password:");
+
+  if (userPassword !== correctPassword) {
+    document.write("<h1 style='text-align:center;margin-top:20%;'>Access Denied ❌</h1>");
+    throw new Error("Unauthorized");
+  }
+})();
+</script>
+
+<meta charset="UTF-8">
+<title>Happy Birthday Aastha</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🎵 Background Music -->
+<audio autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 💕 Hearts -->
+<div class="hearts"></div>
+
+<div class="container">
+  <h1>🎂 Happy Birthday Aastha ❤️</h1>
+
+  <div class="photo-box">
+    <img src="photo.jpg" alt="Aastha">
+  </div>
+
+  <p class="message">
+    Aastha, tum meri zindagi ka sabse khoobsurat hissa ho ❤️  
+    Tumhari muskaan meri duniya roshan kar deti hai.  
+    Happy Birthday my love 🎂
+  </p>
+
+  <h2>With love, always 💕</h2>
+</div>
+
+</body>
+</html>
